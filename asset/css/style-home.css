@@ -1,0 +1,78 @@
+/* ======================thuộc tính chung============================== */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-content {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: calc(100%-48px);
+}
+/* =====================header=========================== */
+.header-body {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.header .logo {
+  height: 50px;
+}
+
+.header .desc {
+  color: #667580;
+  opacity: 0.2;
+  font-weight: 600;
+}
+/* ======================ảnh đại diện============================== */
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+}
+
+.thumb {
+  width: 168px;
+  height: 168px;
+  border: 3px solid rgb(184, 183, 183);
+
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0 16px;
+  max-width: 118px;
+  line-height: 50px;
+  color: #171100;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 999px;
+}
