@@ -68,12 +68,68 @@ a {
 
 .header .logo {
   height: 50px;
+  opacity: 0.2;
 }
 
 .header .desc {
   color: #667580;
   opacity: 0.2;
   font-weight: 600;
+}
+/* =====================bar=========================== */
+.bar-body {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1;
+  margin: 10px;
+}
+
+.bar-body .item{
+  display: inline-block;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 5px;
+  background: #c9c8c3;
+  opacity: 0.4;
+}
+.bar-body .item1{
+  display: flex;
+}
+
+.bar-body .item:hover {
+  opacity: 1;
+}
+
+.bar-body .item .icon {
+  width: 30px;
+  height: 30px;
+}
+
+.bar-body .item2{
+  display: flex;
+}
+
+.bar-body .item2 .icon{
+
+}
+
+.bar-body .item2 .desc{
+  width: 95%;
+  display: none;
+  margin-right: 45px;
+  background: #514f47;
+  color: #fff;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.item2 .item:hover + .desc{
+  display: block;
+}
+
+.item2 .item:hover{
+  margin:15px 0;
 }
 
 /* =====================header=========================== */
@@ -128,7 +184,7 @@ a {
   color: #171717;
   font-weight: 600;
 }
-/* =====================header=========================== */
+/* =====================network=========================== */
 
 .network-body {
   display: flex;
@@ -253,7 +309,7 @@ a {
   height: auto;
   object-fit: cover;
 }
-/* =====================shool=========================== */
+/* =====================school=========================== */
 .school-body {
   padding: 10px 10px;
   border-radius: 12px;
@@ -301,3 +357,4 @@ a {
   line-height: 40px;
   max-width: 120px;
 }
+
